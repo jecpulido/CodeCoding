@@ -1,0 +1,62 @@
+/*
+div a{
+  display: inline-block;
+  position: relative;
+}*/
+section div{
+  background: #000;
+  position: relative;
+  height: auto;
+  clear: right;
+}
+div a{
+  /*transition-property: background-position;
+  transition-duration: .1s;
+  transition-timing-function:ease-out;*/
+  position: relative;
+  padding-top: 60px
+}
+div .twitter {
+   width: 58px;
+   height: 58px;
+   background: transparent url("../img/redes.png");
+   background-position: 0px 0px;
+   float: left;
+
+   /*transition-property: background-position;
+   transition-duration: .50s;
+   transition-timing-function:ease-out;*/
+}
+div .facebook {
+  width: 58px;
+  height: 58px;
+  background: transparent url("../img/redes.png");
+  background-position: -58px 0px;
+  float: left;
+}
+div .google {
+  width: 58px;
+  height: 58px;
+  background: transparent url("../img/redes.png");
+  background-position: -116px 0px;
+  float: left;
+}
+div .youtube {
+  width: 58px;
+  height: 58px;
+  background: transparent url("../img/redes.png");
+  background-position: -290px 0px;
+  float: left;
+}
+div .twitter:hover{
+   background-position: 0px 58px;
+}
+div .facebook:hover{
+   background-position: -58px 58px;
+}
+div .google:hover{
+   background-position: -116px 58px;
+}
+div .youtube:hover{
+   background-position: -290px 58px;
+}
