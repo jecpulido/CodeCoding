@@ -1,62 +1,72 @@
-/*
-div a{
-  display: inline-block;
-  position: relative;
-}*/
-section div{
-  background: #000;
-  position: relative;
-  height: auto;
-  clear: right;
+*{
+  margin: 0;
+  padding: 0;
 }
-div a{
-  /*transition-property: background-position;
-  transition-duration: .1s;
-  transition-timing-function:ease-out;*/
-  position: relative;
-  padding-top: 60px
+.footer{
+  background: #f2f2f2;
+  color:#000;
+  -webkit-box-shadow: 0px -3px 10px -1px rgba(0,0,0,0.68);
+  -moz-box-shadow: 0px -3px 10px -1px rgba(0,0,0,0.68);
+  box-shadow: 0px -3px 10px -1px rgba(0,0,0,0.68);
+}
+section div{
+  margin-top: 10px;
+  text-align: center;
+}
+a{
+  display: block;
+  padding-top: 8px;
+  padding-left: 60px;
+  font-size: 30px;
+  text-decoration: none;
 }
 div .twitter {
    width: 58px;
    height: 58px;
    background: transparent url("../img/redes.png");
    background-position: 0px 0px;
-   float: left;
-
-   /*transition-property: background-position;
-   transition-duration: .50s;
-   transition-timing-function:ease-out;*/
+   text-decoration: none;
+   /*float: left;*/
 }
 div .facebook {
   width: 58px;
   height: 58px;
   background: transparent url("../img/redes.png");
   background-position: -58px 0px;
-  float: left;
+  /*float: left;*/
 }
 div .google {
   width: 58px;
   height: 58px;
   background: transparent url("../img/redes.png");
   background-position: -116px 0px;
-  float: left;
+  /*float: left;*/
 }
 div .youtube {
+  clear: both;
   width: 58px;
   height: 58px;
   background: transparent url("../img/redes.png");
   background-position: -290px 0px;
-  float: left;
+  /*float: left;*/
 }
 div .twitter:hover{
    background-position: 0px 58px;
+   color: #00b8e6;
+   text-decoration: none;
 }
 div .facebook:hover{
    background-position: -58px 58px;
+   color:#004d99;
+   text-decoration: none;
 }
 div .google:hover{
    background-position: -116px 58px;
+   color: #cc0000;
+   text-decoration: none;
 }
 div .youtube:hover{
    background-position: -290px 58px;
+   color: #cc0000;
+   text-decoration: none;
 }
