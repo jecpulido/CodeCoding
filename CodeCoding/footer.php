@@ -10,10 +10,6 @@
 </head>
 <body>
   <div class="container-fluid footer">
-
-
-
-
     <section class="main row">
       <div class="visible-md visible-lg col-md-2">
       </div>
@@ -32,14 +28,10 @@
       <div class="col-xs-6 col-md-2">
       </div>
     </section>
-
-      <h2 style="font-size:50px">
-        &#60;/CodeCoding&#62;
-        <br>
+      <h2>
         <!-- {codeCoding} -->
+        &#60;/CodeCoding&#62;
       </h2>
-
-
   </div>
   <script type="text/javascript" src="resource/js/jQuery.js"></script>
   <script type="text/javascript" src="resource/js/bootstrap.js"></script>

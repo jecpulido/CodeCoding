@@ -9,7 +9,7 @@
 </head>
 <body>
   <header>
-
+    <?php include("header.php") ?>
   </header>
   <div class="container">
     <section class="main">
@@ -25,7 +25,7 @@
     </section>
   </div>
   <footer style="">
-    <div class="">
+    <div style="">
       <?php
       include("footer.php") ?>
     </div>
