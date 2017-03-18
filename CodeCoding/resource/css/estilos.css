@@ -5,11 +5,12 @@
 /*body*/
 .menu{
   padding-top: 50px;
+  padding-bottom: 85px;
 }
 /*header*/
 .headerColor{
-  background: rgb(77, 77, 77);  
-  color:#fff;  
+ /* background: rgb(77, 77, 77);  
+  color:#fff; */ 
   -webkit-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.68);
   -moz-box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.68);
   box-shadow: 0px 3px 10px -1px rgba(0,0,0,0.68);
@@ -21,6 +22,7 @@
 .footer{
   /*background: #f2f2f2;*/
   background: rgb(77, 77, 77);  
+  /*background: #000;  */
   -webkit-box-shadow: 0px -3px 10px -1px rgba(0,0,0,0.68);
   -moz-box-shadow: 0px -3px 10px -1px rgba(0,0,0,0.68);
   box-shadow: 0px -3px 10px -1px rgba(0,0,0,0.68);
@@ -66,7 +68,7 @@ div .youtube {
   width: 58px;
   height: 58px;
   background: transparent url("../img/redes.png");
-  background-position: -290px 0px;
+  background-position: -288px 0px;
   /*float: left;*/
 }
 div .twitter:hover{
@@ -85,7 +87,7 @@ div .google:hover{
    text-decoration: none;
 }
 div .youtube:hover{
-   background-position: -290px 58px;
+   background-position: -288px 58px;
    color: #cc0000;
    text-decoration: none;
 }
